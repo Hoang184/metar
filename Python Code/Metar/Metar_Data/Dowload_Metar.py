@@ -106,8 +106,8 @@ def download_alldata():
 def main():
     """Our main method"""
     # timestamps in UTC to request data for
-    startts = datetime.datetime(2012, 1, 1)
-    endts = datetime.datetime(2012, 4, 27)
+    startts = datetime.datetime(2021, 1, 1)
+    endts = datetime.datetime(2021, 4, 28)
 
     service = SERVICE + "data=all&tz=Etc/UTC&format=comma&latlon=yes&"
 
